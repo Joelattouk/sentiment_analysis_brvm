@@ -3,7 +3,6 @@
 import numpy as np
 import pandas as pd
 import dash
-from imblearn.over_sampling import SMOTE
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.linear_model import LogisticRegression
