@@ -17,6 +17,7 @@ with open('vecteur_tfidf.pkl', 'rb') as file:
 
 # Application Dash
 app = dash.Dash(__name__)
+server = app.server
 
 
 app.layout = html.Div([
